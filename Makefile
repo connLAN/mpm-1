@@ -1,6 +1,5 @@
 CC = gcc
-#MPICC = mpicc
-MPICC = /opt/openmpi-1.8/bin/mpicc
+MPICC = mpicc
 INCLUDES = -I./include
 S_OBJECTS = ./build/initmpm.o ./build/mpmfunctions.o ./build/commfunctions.o ./build/mpmio.o
 P_OBJECTS = ./build/initmpm.o ./build/mpmfunctions.o ./build/commfunctions.o ./build/mpmio.o
